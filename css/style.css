@@ -1,0 +1,33 @@
+
+.background{
+    background: url(../images/bg-image.jpg), linear-gradient(rgba(16, 36, 212, 0.801),#02424dfd);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-blend-mode: overlay;
+    position: relative;
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid #dee2e6 ;
+}
+.icon{
+    align-items: flex-start;
+}
+.position{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    left: 20%;
+}
+
+
