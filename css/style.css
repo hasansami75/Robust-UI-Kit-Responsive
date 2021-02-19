@@ -1,4 +1,13 @@
 
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff 
+    url('https:/loading.io/spinners/progress-pie/lg.percent-circular-preloader-gif.gif')
+    no-repeat center;
+    z-index: 99999;
+}
 .background{
     background: url(../images/bg-image.jpg), linear-gradient(rgba(16, 36, 212, 0.801),#02424dfd);
     height: 70vh;
@@ -21,13 +30,6 @@
 }
 .icon{
     align-items: flex-start;
-}
-.position{
-    position: relative;
-}
-.absolute{
-    position: absolute;
-    left: 20%;
 }
 
 
